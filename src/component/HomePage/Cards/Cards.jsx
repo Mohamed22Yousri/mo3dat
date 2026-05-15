@@ -114,7 +114,7 @@ export default function Products() {
       <div className="row g-4">
         {products[lang].map((product) => (
           <div className="col-md-4" key={product.id}>
-            <div className="card border-0 h-100 text-center">
+            <div className="card shadow border-0 h-100 text-center">
               <img
                 src={product.image}
                 className="card-img-top"
