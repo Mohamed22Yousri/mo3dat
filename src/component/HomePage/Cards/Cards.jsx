@@ -114,7 +114,7 @@ export default function Products() {
       <div className="row g-4">
         {products[lang].map((product) => (
           <div className="col-md-4" key={product.id}>
-            <div className="card shadow border-0 h-100 text-center">
+            <div className="card border-0 h-100 text-center">
               <img
                 src={product.image}
                 className="card-img-top"
@@ -124,7 +124,10 @@ export default function Products() {
               <div className="card-body">
                 <h3 className="card-title">{product.name}</h3>
 
-                <p className="text-primary fw-bold fs-5"> <span>EGP</span>:{product.price}</p>
+                <p className="text-primary fw-bold fs-5">
+                  {" "}
+                  <span>EGP</span>:{product.price}
+                </p>
 
                 <button className="btn btn-dark">{t[lang].btn}</button>
               </div>
