@@ -1,5 +1,5 @@
 import LandingPage from "./landingPage/LandingPage.jsx";
-import Cards from "./cards/Cards.jsx";
+import Cards from "./Cards/Cards.jsx";
 import Address from "./Address/Address.jsx";
 import Contact from "./Contact/Contact.jsx";
 
